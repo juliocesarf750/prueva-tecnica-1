@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    padding:0;
+    background: url(../img/bg.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 295vh;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header{
+    width: 100%;
+    height: 65px;
+    background:white;
+    position: fixed;
+    z-index: 1;
+
+}
+
+.container{
+    max-width: 1100px;
+    
+    margin: auto;
+}
+.logo{
+    padding:auto;
+    margin:0;  
+    float: left;
+    line-height:30px;
+    width: 60px;
+    height:60px;
+
+    
+}
+
+.logo .icono{
+    padding:5px;
+    margin: 2px;
+    width: 60px;
+    height: 60px;
+
+}
+.menu{
+    float: right;
+    line-height: 65px;
+
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    
+    color: black;
+    transition: all 500ms ease;
+
+}
+.menu a:hover{
+    background: rgba(255, 0, 187, 0.075);
+    color: rgba(34, 223, 24, 0.966)
+}
+
+
+.menu .submenu{
+    background: rgb(55, 18, 219);
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+    
+
+}
+
+
+.centro{
+    height: 700px;
+    margin-bottom: 50px;
+    
+       
+}
+
+.centro .titulo_centro{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 70px;
+    left: 80px;
+    color: white;
+    padding-left: 15%;
+    width: 700px;
+    
+    
+    
+    
+}
+.centro .parrafo{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    position:relative;
+    width: 700px;
+    top:100px;
+    font-size: auto;
+    padding-left: 8%;
+    
+}
+
+.centro .foto_prog{
+    position: relative;
+    left: 60%;
+    top: -100px;
+    width: 450px;
+    height: 250px;
+    
+}
+
+.centro .boton{
+    position: relative;
+    top: 30%;
+    left: 50px;
+    width: 110px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+
+}
+
+.parrafo_titulo{
+    width: 700px;
+    height: 400px;
+    
+    position: relative;
+    top: 250px;
+}
+
+.skills{
+    
+    height: 700px;
+    margin-bottom: 300px;
+    
+}
+
+.skills .h2_skills2{
+    
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    left: 550px;
+    top: -50px;
+    width: max-content;
+    color: white;
+}
+
+.skills .html{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 50px;
+}
+.skills .css{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 100px;
+}
+.skills .python{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 150px;
+}
+
+.skills .c{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 300px;
+    left: 200px;
+}
+
+.skills .h2_skills{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skills .l_h{
+    position: relative;
+    top: 320px;
+    left: -633px;
+    color: white;
+}
+.skills .l_css{
+    position: relative;
+    top: 320px;
+    left: -507px;
+    color: white;
+}
+
+.skills .l_p{
+    position: relative;
+    
+    top: 320px;
+    left: -393px;
+    color: white;
+}
+.skills .l_c{
+    position: relative;
+    top: 320px;
+    left: -280px;
+    color: white;
+}
+.skills .icono_portafolio{
+    position: relative;
+    width: 300px;
+    left: 400px;
+    top: 300px;
+    
+}
+.proyectos{
+    height: 700px;
+    display:flex;
+    
+    
+    
+    
+    
+}
+
+.proyectos .h1_proyecto{
+    position: relative;
+    left: 520px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.proyectos .proyecto1{
+    margin-top: 150px;
+    height:500px;
+    width:400px;
+    background:white;
+    margin-left: -130px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.proyectos .proyecto2{
+    margin-top: 150px;
+    height:500px;
+    width:400px;
+    background:white;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+}
+.proyectos .proyecto3{
+    margin-top: 150px;
+    height:500px;
+    width:400px;
+    background:white;
+    margin-left: 20px;
+    border-radius: 10px;
+    
+    
+}
+
+.proyectos .proyecto1 .img_p1{
+     margin: 15px;
+     width: 350px;
+     padding-bottom: 30px;
+}
+
+.proyectos .proyecto1 h3{
+    padding: 20px;
+    padding-bottom: 60px;
+     
+}
+
+.proyectos .proyecto2 .img_p2{
+    
+     margin: 15px;
+    width: 350px;
+    
+}
+
+.proyectos .proyecto2 h3{
+    padding: 40px; 
+}
+
+.proyectos .proyecto3 .img_p3{
+    
+    width: 350px;
+    margin: 15px;
+}
+
+.proyectos .proyecto3 h3{
+    
+    margin: 45px;
+}
+
+.proyectos .proyecto1 a{
+    
+    padding: 150px;
+    text-decoration: none;
+}
+
+.proyectos .proyecto2 a{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.proyectos .proyecto3 a{
+    padding-left: 150px;
+    text-decoration: none;
+}
+
+.contactos{
+    
+    height: 700px;
+    
+    
+    
+}
+.contactos .h1_contactos{
+    margin-top: 150px;
+    position:relative;
+    left: 550px;
+    top: 40px;
+    padding-bottom: 150px;
+    width: max-content;
+}
+.contactos .formulario{
+    position: relative;
+    left: 400px;
+    width: 500px;
+    height: 500px;
+    
+    
+    
+}
+
+.formulario .email{
+    margin-top: 50px;
+    position: relative;
+    top: 10px;
+    width:100%;
+    height: 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.formulario .mensaje{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.formulario .enviar{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 200px;
+    background: rgb(240, 240, 240);
+}
+.contactos .img_contactos{
+    width: 10px;
+    height: 10px;
+}
+
