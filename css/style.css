@@ -96,6 +96,7 @@ body{
     justify-content: space;
     
     flex-flow: wrap;
+    margin-bottom: 300px;
     
     
     
@@ -127,23 +128,25 @@ body{
 }
 
 .centro .parrafo_titulo{
-    width: 700px;
+    width: auto;
     height:500px;
     
     position: relative;
     top: 160px;
-    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .centro .parrafo_titulo .titulo_centro{
-      width: 700px;
-      color: white;
+      width: auto;
+      color: rgb(237, 79, 116);
       position: relative;
+      font-family:'Courier New', Courier, monospace;
       left: 100px;
       top: 200px;
+      
 }
 .centro .parrafo_titulo .parrafo{
-    width: 700px;
+    max-width: 500px;
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     color: white;
@@ -166,7 +169,7 @@ body{
     height: 500px;
     
     position: relative;
-    top: 160px;
+    top: 240px;
     
     margin-left: 100px;
 }
@@ -189,22 +192,34 @@ body{
     height: 30px;
     
     position: relative;
-    top: 190px;
+    top: 100px;
 }
 
 .pie_skills .h1_skills{
     text-align: center;
+    color: rgb(237, 79, 116);
+    margin-bottom: 75px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.pie_skills .h3_skills{
+    text-align: center;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
 .skills{
     
-    height: 700px;
-    margin-bottom: 300px;
-    
-    margin-top: 200px;
+    width: 100%;
+    height: auto;
     display:flex;
+    flex-direction: row;
+    justify-content: space;
+    flex-flow: wrap;
+    margin-bottom: 450px;
+    
     
     
 }
@@ -215,7 +230,8 @@ body{
     
     position: relative;
     top: 250px;
-    margin-left: 30px;
+   
+    
     text-align: center;
     
 }
@@ -229,6 +245,7 @@ body{
 .skills .html h3{
     text-align: center;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .skills .css{
@@ -237,7 +254,7 @@ body{
     
     top: 250px;
     position: relative;
-    margin-left: 30px;
+    
     text-align: center;
 }
 
@@ -249,6 +266,7 @@ body{
 .skills .css h3{
     text-align: center;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -260,7 +278,7 @@ body{
     
     top: 250px;
     position: relative;
-    margin-left: 30px;
+    
     text-align: center;
 }
 
@@ -272,6 +290,7 @@ body{
 .skills .python h3{
     text-align: center;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -282,7 +301,7 @@ body{
     
     top: 250px;
     position: relative;
-    margin-left: 30px;
+    
     text-align: center;
 }
 .skills .c .img_c{
@@ -293,6 +312,7 @@ body{
 .skills .c h3{
     text-align: center;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -301,9 +321,9 @@ body{
     width: 300px;
     height: 300px;
     
-    top: 250px;
+    top: 200px;
     position: relative;
-    margin-left: 30px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -312,10 +332,7 @@ body{
     height: 250px;
 }
 
-.skills .foto_skill h3{
-    text-align: center;
-    color: white;
-}
+
 
 
 
