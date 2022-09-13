@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding:0;
-    background: url(../img/bg.jpeg) no-repeat center top;
+    background:rgb(8, 8, 67);
     background-size: cover;
     font-family: sans-serif;
     height: 295vh;
+    display: block;
     
 }
 
@@ -22,12 +23,12 @@ body{
     background:white;
     position: fixed;
     z-index: 1;
+    
 
 }
 
 .container{
-    max-width: 1100px;
-    
+    max-width: 3500px;
     margin: auto;
 }
 .logo{
@@ -65,7 +66,7 @@ body{
     text-decoration: none;
     
     color: black;
-    transition: all 500ms ease;
+    transition: all .5s ease;
 
 }
 .menu a:hover{
@@ -88,163 +89,299 @@ body{
 
 
 .centro{
-    height: 700px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space;
+    
+    flex-flow: wrap;
+    
+    
     
        
 }
 
-.centro .titulo_centro{
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    top: 70px;
-    left: 80px;
-    color: white;
-    padding-left: 15%;
-    width: 700px;
-    
-    
-    
-    
+@media screen and (max-width:1200px){
+    .parrafo_titulo{
+        width: 40%;
+    }
 }
-.centro .parrafo{
+
+@media screen and (max-width:600px){
+    .parrafo_titulo{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .img_centro{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .img_centro{
+        width: 90%;
+    }
+}
+
+.centro .parrafo_titulo{
+    width: 700px;
+    height:500px;
+    
+    position: relative;
+    top: 160px;
+    margin-left: 60px;
+}
+
+.centro .parrafo_titulo .titulo_centro{
+      width: 700px;
+      color: white;
+      position: relative;
+      left: 100px;
+      top: 200px;
+}
+.centro .parrafo_titulo .parrafo{
+    width: 700px;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
     color: white;
-    position:relative;
-    width: 700px;
-    top:100px;
-    font-size: auto;
-    padding-left: 8%;
-    
+    font-size: 22px;
+    top: 220px;
+    left: 100px;
 }
-
-.centro .foto_prog{
-    position: relative;
-    left: 60%;
-    top: -100px;
-    width: 450px;
-    height: 250px;
-    
-}
-
-.centro .boton{
-    position: relative;
-    top: 30%;
-    left: 50px;
-    width: 110px;
-    height: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-
-
-}
-
-.parrafo_titulo{
-    width: 700px;
-    height: 400px;
-    
+.centro .parrafo_titulo .boton{
+    width: 100px;
+    height: auto;
     position: relative;
     top: 250px;
+    left: 100px;
 }
+
+
+.centro .img_centro{
+
+    width: 500px;
+    height: 500px;
+    
+    position: relative;
+    top: 160px;
+    
+    margin-left: 100px;
+}
+
+
+
+.centro .foto_prog{
+    
+    width: 450px;
+    height: 250px;
+    position: relative;
+    top: 130px;
+    left: 150px;
+    
+}
+
+.pie_skills{
+    
+    
+    height: 30px;
+    
+    position: relative;
+    top: 190px;
+}
+
+.pie_skills .h1_skills{
+    text-align: center;
+    color: white;
+}
+
 
 .skills{
     
     height: 700px;
     margin-bottom: 300px;
     
-}
-
-.skills .h2_skills2{
-    
-    position: relative;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    left: 550px;
-    top: -50px;
-    width: max-content;
-    color: white;
-}
-
-.skills .html{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    top: 300px;
-    left: 50px;
-}
-.skills .css{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    top: 300px;
-    left: 100px;
-}
-.skills .python{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    top: 300px;
-    left: 150px;
-}
-
-.skills .c{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    top: 300px;
-    left: 200px;
-}
-
-.skills .h2_skills{
-    position: relative;
-    top: 50px;
-    left: 50px;
-    color: white;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.skills .l_h{
-    position: relative;
-    top: 320px;
-    left: -633px;
-    color: white;
-}
-.skills .l_css{
-    position: relative;
-    top: 320px;
-    left: -507px;
-    color: white;
-}
-
-.skills .l_p{
-    position: relative;
-    
-    top: 320px;
-    left: -393px;
-    color: white;
-}
-.skills .l_c{
-    position: relative;
-    top: 320px;
-    left: -280px;
-    color: white;
-}
-.skills .icono_portafolio{
-    position: relative;
-    width: 300px;
-    left: 400px;
-    top: 300px;
-    
-}
-.proyectos{
-    height: 700px;
+    margin-top: 200px;
     display:flex;
     
     
+}
+
+.skills .html{
+    width: 300px;
+    height: 300px;
     
-    
+    position: relative;
+    top: 250px;
+    margin-left: 30px;
+    text-align: center;
     
 }
+
+.skills .html .img_html{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.skills .html h3{
+    text-align: center;
+    color: white;
+}
+
+.skills .css{
+    width: 300px;
+    height: 300px;
+    
+    top: 250px;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.skills .css .img_css{
+    width: 150px;
+    height: 150px;
+}
+
+.skills .css h3{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+.skills .python{
+    width: 300px;
+    height: 300px;
+    
+    top: 250px;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.skills .python .img_python{
+    width: 150px;
+    height: 150px;
+}
+
+.skills .python h3{
+    text-align: center;
+    color: white;
+}
+
+
+
+.skills .c{
+    width: 300px;
+    height: 300px;
+    
+    top: 250px;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+}
+.skills .c .img_c{
+    width: 150px;
+    height: 150px;
+}
+
+.skills .c h3{
+    text-align: center;
+    color: white;
+}
+
+
+
+.skills .foto_skill{
+    width: 300px;
+    height: 300px;
+    
+    top: 250px;
+    position: relative;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.skills .foto_skill .img_skill{
+    width: 250px;
+    height: 250px;
+}
+
+.skills .foto_skill h3{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.proyectos{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space;
+    flex-flow: wrap;  
+     
+    
+}
+
+@media screen and (max-width:1200px){
+    .proyecto1{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .proyectos1{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .proyecto2{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .proyectos2{
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width:1200px){
+    .proyecto3{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .proyectos3{
+        width: 90%;
+    }
+    
+}
+
+
+
+
+    
+
 
 .proyectos .h1_proyecto{
     position: relative;
@@ -259,9 +396,15 @@ body{
     background:white;
     margin-left: -130px;
     border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
     
     
     
+}
+
+.proyectos .proyecto1:hover{
+    transform: scale(1.1,1.1);
 }
 
 .proyectos .proyecto2{
@@ -269,19 +412,32 @@ body{
     height:500px;
     width:400px;
     background:white;
-    margin-left: 20px;
+    margin-left: 40px;
     border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
     
 }
+
+.proyectos .proyecto2:hover{
+    transform: scale(1.1,1.1);
+}
+
 .proyectos .proyecto3{
     margin-top: 150px;
     height:500px;
     width:400px;
     background:white;
-    margin-left: 20px;
+    margin-left: 40px;
     border-radius: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
     
-    
+}
+
+.proyectos .proyecto3:hover{
+    transform: scale(1.1,1.1);
 }
 
 .proyectos .proyecto1 .img_p1{
@@ -344,6 +500,7 @@ body{
 .contactos .h1_contactos{
     margin-top: 150px;
     position:relative;
+    color: white;
     left: 550px;
     top: 40px;
     padding-bottom: 150px;
@@ -386,4 +543,5 @@ body{
     width: 10px;
     height: 10px;
 }
+
 
