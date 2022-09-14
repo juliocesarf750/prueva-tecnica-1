@@ -100,6 +100,7 @@ body{
     
     
     
+    
        
 }
 
@@ -219,6 +220,7 @@ body{
     justify-content: space;
     flex-flow: wrap;
     margin-bottom: 450px;
+    justify-content: center;
     
     
     
@@ -351,8 +353,28 @@ body{
     flex-direction: row;
     justify-content: space;
     flex-flow: wrap;  
+    justify-content: center;
      
     
+}
+.pie_proyectos{
+    height: 150px;
+    
+}
+
+.pie_proyectos h1{
+    font-family: 'Courier New', Courier, monospace;
+
+    color: rgb(237, 79, 116);
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+
+.pie_proyectos h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
 }
 
 @media screen and (max-width:1200px){
@@ -411,7 +433,7 @@ body{
     height:500px;
     width:400px;
     background:white;
-    margin-left: -130px;
+    margin-left: 40px;
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -508,24 +530,36 @@ body{
 }
 
 .contactos{
+    width: auto;
+    height:auto;
     
-    height: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     
     
     
 }
-.contactos .h1_contactos{
-    margin-top: 150px;
-    position:relative;
+
+.pie_contactos{
+    
+    height: 100px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+.pie_contactos h1{
+    font-family: 'Courier New', Courier, monospace;
     color: white;
-    left: 550px;
-    top: 40px;
-    padding-bottom: 150px;
-    width: max-content;
 }
+
+
+
+
 .contactos .formulario{
-    position: relative;
-    left: 400px;
+
+    
     width: 500px;
     height: 500px;
     
@@ -556,9 +590,6 @@ body{
     margin-left: 200px;
     background: rgb(240, 240, 240);
 }
-.contactos .img_contactos{
-    width: 10px;
-    height: 10px;
-}
+
 
 
