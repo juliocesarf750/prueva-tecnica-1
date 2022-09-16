@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding:0;
-    background:rgb(8, 8, 67);
+    background: rgb(18, 37, 93);
     background-size: cover;
     font-family: sans-serif;
-    height: 295vh;
+    height: auto;
     display: block;
     
 }
@@ -45,7 +45,7 @@ body{
 .logo .icono{
     padding:5px;
     margin: 2px;
-    width: 60px;
+    width: 86px;
     height: 60px;
 
 }
@@ -93,10 +93,11 @@ body{
     height: auto;
     display:flex;
     flex-direction: row;
-    justify-content: space;
+    justify-content:space;
     
     flex-flow: wrap;
     margin-bottom: 300px;
+    background: url(../img/bg6.jpg) no-repeat center top;
     
     
     
@@ -129,38 +130,39 @@ body{
 }
 
 .centro .parrafo_titulo{
-    width: auto;
-    height:500px;
+    width: 600px;
+    height:300px;
     
     position: relative;
-    top: 160px;
+    top: 380px;
+    margin-left: 20px;
     margin-right: 60px;
 }
 
 .centro .parrafo_titulo .titulo_centro{
       width: auto;
       color: rgb(237, 79, 116);
-      position: relative;
-      font-family:'Courier New', Courier, monospace;
-      left: 100px;
-      top: 200px;
+      margin-top: 30px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      
+      text-align: center;
       
 }
 .centro .parrafo_titulo .parrafo{
     max-width: 500px;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 50px;
+    color:white;
     font-size: 22px;
-    top: 220px;
-    left: 100px;
+    
+    text-align: center;
 }
 .centro .parrafo_titulo .boton{
     width: 100px;
     height: auto;
-    position: relative;
-    top: 250px;
-    left: 100px;
+    margin-top: 10px;
+    margin-left: 250px;
+    
 }
 
 
@@ -170,7 +172,7 @@ body{
     height: 500px;
     
     position: relative;
-    top: 240px;
+    top: 190px;
     
     margin-left: 100px;
 }
@@ -179,10 +181,10 @@ body{
 
 .centro .foto_prog{
     
-    width: 450px;
-    height: 250px;
+    width: 350px;
+    height: 400px;
     position: relative;
-    top: 130px;
+    top: 120px;
     left: 150px;
     
 }
@@ -200,14 +202,15 @@ body{
     text-align: center;
     color: rgb(237, 79, 116);
     margin-bottom: 75px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 
 .pie_skills .h3_skills{
     text-align: center;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 
@@ -221,53 +224,69 @@ body{
     flex-flow: wrap;
     margin-bottom: 450px;
     justify-content: center;
+    background: url(../img/bg6.jpg) no-repeat center top;
+    
     
     
     
 }
 
 .skills .html{
-    width: 300px;
+    width: 200px;
     height: 300px;
-    
-    position: relative;
+    position:relative;
     top: 250px;
-   
-    
     text-align: center;
+    border-radius: 10px;
+    background:white;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+    box-sizing: border-box;
     
 }
 
+.skills .html:hover{
+    transform: scale(1.1,1.1);
+}
 .skills .html .img_html{
     width: 150px;
     height: 150px;
+    margin-top: 30px;
     
 }
 
 .skills .html h3{
     text-align: center;
-    color: white;
+    font-size:20px;
+    padding-top: 30px;
+    color:black;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .skills .css{
-    width: 300px;
+    width: 200px;
     height: 300px;
-    
     top: 250px;
     position: relative;
-    
     text-align: center;
+    border-radius: 10px;
+    background:white;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .skills .css .img_css{
     width: 150px;
     height: 150px;
+    margin-top: 30px;
 }
 
 .skills .css h3{
     text-align: center;
-    color: white;
+    font-size:20px;
+    padding-top: 30px;
+    color:black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -275,45 +294,60 @@ body{
 
 
 .skills .python{
-    width: 300px;
+    width: 200px;
     height: 300px;
     
     top: 250px;
     position: relative;
     
     text-align: center;
+    background:white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .skills .python .img_python{
     width: 150px;
     height: 150px;
+    margin-top: 30px;
+
 }
 
 .skills .python h3{
     text-align: center;
-    color: white;
+    font-size:20px;
+    padding-top: 30px;
+    color:black;
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 
 .skills .c{
-    width: 300px;
+    width: 200px;
     height: 300px;
     
-    top: 250px;
-    position: relative;
     
+    top: 250px;
+    position: relative; 
     text-align: center;
+    background:white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .skills .c .img_c{
     width: 150px;
     height: 150px;
+    margin-top: 30px;
 }
 
 .skills .c h3{
     text-align: center;
-    color: white;
+    font-size:20px;
+    padding-top: 30px;
+    color:black;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -322,16 +356,17 @@ body{
 .skills .foto_skill{
     width: 300px;
     height: 300px;
-    
-    top: 200px;
+    top: 190px;
     position: relative;
-    margin-left: 100px;
+    margin-left: 120px;
+    margin-top: 50px;
     text-align: center;
+
 }
 
 .skills .foto_skill .img_skill{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -354,6 +389,8 @@ body{
     justify-content: space;
     flex-flow: wrap;  
     justify-content: center;
+    background: url(../img/bg6.jpg) no-repeat center top;
+    
      
     
 }
@@ -363,7 +400,7 @@ body{
 }
 
 .pie_proyectos h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
     color: rgb(237, 79, 116);
     text-align: center;
@@ -372,7 +409,7 @@ body{
 }
 
 .pie_proyectos h3{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-align: center;
 }
@@ -422,12 +459,7 @@ body{
     
 
 
-.proyectos .h1_proyecto{
-    position: relative;
-    left: 520px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .proyectos .proyecto1{
     margin-top: 150px;
     height:500px;
@@ -437,6 +469,7 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s;
+    text-align: center;
     
     
     
@@ -455,6 +488,7 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s;
+    text-align: center;
     
     
 }
@@ -472,6 +506,7 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s;
+    text-align: center;
     
 }
 
@@ -481,13 +516,15 @@ body{
 
 .proyectos .proyecto1 .img_p1{
      margin: 15px;
-     width: 350px;
+     height: 250px;
+     width: auto;
      padding-bottom: 30px;
 }
 
 .proyectos .proyecto1 h3{
     padding: 20px;
     padding-bottom: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      
 }
 
@@ -500,6 +537,7 @@ body{
 
 .proyectos .proyecto2 h3{
     padding: 40px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .proyectos .proyecto3 .img_p3{
@@ -511,31 +549,35 @@ body{
 .proyectos .proyecto3 h3{
     
     margin: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .proyectos .proyecto1 a{
     
-    padding: 150px;
+    
     text-decoration: none;
 }
 
 .proyectos .proyecto2 a{
-    padding-left: 150px;
+   
     text-decoration: none;
 }
 
 .proyectos .proyecto3 a{
-    padding-left: 150px;
+   
     text-decoration: none;
 }
 
 .contactos{
-    width: auto;
-    height:auto;
-    
-    text-align: center;
-    display: flex;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space;
+    flex-flow: wrap;  
     justify-content: center;
+background: black;
+
     
     
     
@@ -550,7 +592,7 @@ body{
 }
 
 .pie_contactos h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
 }
 
@@ -563,8 +605,22 @@ body{
     width: 500px;
     height: 500px;
     
+   
     
     
+    
+}
+
+
+.contactos .contactos_img{
+    width: 500px;
+    height: 500px;
+    
+}
+
+.contactos .contactos_img .img_logo2{
+    width: 400px;
+    margin-top: 70px;
 }
 
 .formulario .email{
@@ -590,6 +646,7 @@ body{
     margin-left: 200px;
     background: rgb(240, 240, 240);
 }
+
 
 
 
